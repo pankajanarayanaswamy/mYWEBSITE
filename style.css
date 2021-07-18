@@ -5,9 +5,10 @@
 }
 
 header {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("food-photography-111-1024x683.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("image.jpg");
     width: 100%;
     height: 600px;
+    background-position: center;
     background-size: cover;
     text-align: center;
     padding-right: 20px;
