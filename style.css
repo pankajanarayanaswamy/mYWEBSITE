@@ -1,0 +1,722 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("images/food-photography-111-1024x683.jpg");
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    text-align: center;
+    padding-right: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #f2ac32;
+    font-size: 40px;
+
+}
+
+
+
+
+.logo {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    transition: color 0.2s ease;
+    padding: 10px;
+}
+
+.dropdown a {
+    display: none;
+}
+
+.dropdown,
+li:hover {
+    display: block;
+    position: initial;
+    flex-wrap: wrap;
+
+}
+
+.logo:hover {
+    background-color: rgb(245, 8, 8);
+    color: black;
+
+}
+
+.nav-menu {
+    list-style: none;
+    color: #f2f2f2;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.nav-menu li {
+    display: inline-flex;
+    color: aliceblue;
+    text-transform: uppercase;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    padding: 30px 40px;
+    position: sticky;
+
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: aliceblue;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: color 0.3s ease-in-out;
+    font-size: 15px;
+    float: right;
+    display: inline-flex;
+}
+
+.nav-menu li a:hover {
+    color: rgb(169, 230, 57);
+    transform: scaleX(-30px);
+}
+
+.header-title1 {
+    color: rgb(224, 210, 10);
+    font-size: 40px;
+    font-family: 'Rochester', cursive;
+    font-style: italic;
+    margin-top: 100px;
+    margin-bottom: 15px;
+
+}
+
+.header-title2 {
+    color: white;
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+.header-cta-button {
+    background-color: tomato;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Rochester';
+    transition: all 0.3s ease-in-out;
+}
+
+.header-cta-button:hover {
+    background-color: teal;
+}
+
+.my-bag {
+    font-size: 20px;
+}
+
+.my-search {
+    margin: 20px 20px;
+}
+
+/*picture section*/
+.picture-section {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.food-item {
+    height: 400px;
+    width: 240px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+
+}
+
+.food1 {
+    background: url(/images/download.jfif);
+    background-size: cover;
+    margin-bottom: 100px;
+    margin-top: -30px;
+    box-shadow: antiquewhite;
+    box-shadow: 11px 9px 7px 4px rgba(0, 0, 0, 0.45);
+    -webkit-box-shadow: 11px 9px 7px 4px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 11px 9px 7px 4px rgba(0, 0, 0, 0.45);
+}
+
+.food2 {
+    background: url(/images/123.jfif);
+    background-size: cover;
+    box-shadow: 11px 9px 7px 4px rgba(0, 0, 0, 0.45);
+    -webkit-box-shadow: 11px 9px 7px 4px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 11px 9px 7px 4px rgba(0, 0, 0, 0.45);
+}
+
+.picture-h1 {
+    font-family: 'Rochester', cursive;
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(148, 148, 1);
+    margin-bottom: 15px;
+}
+
+.picture-h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: bold;
+    color: teal;
+    margin-bottom: 15px;
+
+}
+
+.food-item p {
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.food-item a {
+    font-size: 16px;
+    color: #f2ac32;
+
+}
+
+.food-border {
+    border: 2px solid #f2ac32;
+    position: relative;
+}
+
+.food-overlay {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding-top: 50px;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    margin-right: 10px;
+
+
+}
+
+/*specialities section*/
+.specialities-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("images/food-photography-111-1024x683.jpg");
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.specialities-middle {
+    text-align: center;
+    padding: 100px 50px;
+    position: relative;
+}
+
+.specialities-h1 {
+    font-family: 'Rochester', cursive;
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(194, 255, 144);
+    margin-bottom: 15px;
+}
+
+.specialities-h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    font-style: bold;
+    color: rgb(255, 255, 255);
+    margin-bottom: 80px;
+}
+
+.specialities-row {
+    display: flex;
+    justify-content: center;
+}
+
+.specialities-image1,
+.specialities-image2,
+.specialities-image3 {
+    width: 100%;
+    height: 250px;
+    box-shadow: 7px 5px 8px -2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 7px 5px 8px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 7px 5px 8px -2px rgba(0, 0, 0, 0.75);
+    margin-bottom: 30px;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+}
+
+.specialities-image1 {
+    background: url("/images/special1.jfif");
+    background-size: cover;
+}
+
+.specialities-image2 {
+    background: url("/images/special2.jfif");
+    background-size: cover;
+}
+
+.specialities-image3 {
+    background: url("/images/123.jfif");
+    background-size: cover;
+}
+
+.specialties-column {
+    width: 350px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.specialities-h3 {
+    color: aliceblue;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -1px;
+}
+
+.specialities-overlay {
+    opacity: 0;
+    position: absolute;
+    background-color: rgba(203, 235, 23, 0.7);
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+}
+
+.specialities-image3 h3 {
+    padding: 90px 90px;
+    font-size: 18px;
+    color: blanchedalmond;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+
+.specialities-image2 h3 {
+    padding: 90px 90px;
+    font-size: 18px;
+    color: blanchedalmond;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+
+.specialities-image1 h3 {
+    padding: 90px 90px;
+    font-size: 18px;
+    color: blanchedalmond;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+
+.specialities-overlayborder {
+    border: 2px solid rgb(254, 254, 255);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    color: aliceblue;
+}
+
+.specialities-image3:hover .specialities-overlay,
+.specialities-image2:hover .specialities-overlay,
+.specialities-image1:hover .specialities-overlay {
+    opacity: 1;
+}
+
+.specialities-middle:before {
+    content: '';
+    position: absolute;
+    border-top: 100px solid whitesmoke;
+    border-right: 100vw solid transparent;
+    top: -80px;
+    left: 0;
+}
+
+.specialities-middle:after {
+    content: '';
+    position: absolute;
+    border-bottom: 100px solid whitesmoke;
+    border-left: 100vw solid transparent;
+    bottom: -100px;
+    right: 0;
+}
+
+/*specialmenu css*/
+
+.specialmenusection {
+    text-align: center;
+    background-color: #fff;
+    padding: 50px;
+}
+
+.specialmenu-container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.specialmenuh1 {
+    font-family: 'Rochester', cursive;
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(194, 255, 144);
+    margin-bottom: 15px;
+}
+
+.specialmenuh2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    font-style: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 40px;
+    font-style: uppercase;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.col-large1,
+.col-large3 {
+    background-color: #f2ac32;
+    color: #f2f2f2;
+    justify-content: center;
+
+}
+
+.col-large {
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.specialmenuh3 {
+    font-family: 'Rochester', cursive;
+    font-size: 40px;
+    font-style: italic;
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+
+.specialmenucol {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.fa-stroopwafel,
+.fa-utensils {
+    width: 100%;
+    font-size: 20px;
+}
+
+.separator {
+    display: inline-block;
+    width: 40px;
+    border-bottom: 6px solid whitesmoke;
+    margin: 2px 150px;
+}
+
+.specialmenuh4 {
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.specialmenup {
+    font-family: 'Rochester', cursive;
+    font-size: 14px;
+    padding: 30px 20px;
+    width: 100%;
+}
+
+.col-large2 {
+    background-image: url("/images/monikawalecka-1.jpg");
+    background-size: cover;
+}
+
+.col-large4 {
+    background-image: url("/images/81U4cHXuJEL.jpg");
+    background-size: cover;
+}
+
+.col-small {
+    width: 50%;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.col-small1 {
+    background-color: aliceblue;
+}
+
+.col-small2 {
+    background-color: aliceblue;
+    background-image: url(/images/image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.col-small3 {
+    background-image: url(/images/123.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.col-small-h3 {
+    font-size: 22px;
+    letter-spacing: 2px;
+    width: 100%;
+    color: #f2ac32;
+
+}
+
+.col-small-h4,
+.col-small-h5 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: epx;
+    color: black;
+    width: 100%;
+}
+
+.fa-hamburger {
+    width: 100%;
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: #f2ac32;
+}
+
+.separator-orange {
+    display: inline-block;
+    width: 80px;
+    border-bottom: 6px solid orange;
+    margin: 2px 150px;
+}
+
+/* our menu css*/
+.our-menu-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("/images/menu.jpg");
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+    padding-bottom: 150px;
+
+}
+
+.our-menu-h1 {
+    font-family: 'Rochester', cursive;
+    font-size: 40px;
+    font-style: italic;
+    color: #f2ac32;
+    margin-bottom: 15px;
+
+}
+
+.our-menu-h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    font-style: bold;
+    color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.food-container {
+    color: aliceblue;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 25px;
+}
+
+.our-menu-row {
+    display: flex;
+    justify-content: center;
+}
+
+.our-menu-col {
+    width: 400px;
+    margin: 30px;
+}
+
+.food-title {
+    font-size: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.food-ingredient {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: lowercase;
+    word-spacing: 2px;
+}
+
+.food-price {
+    font-size: 25px;
+    color: #f2ac32;
+    font-family: 'Oswald', sans-serif;
+    float: right;
+    padding-top: 5px;
+}
+
+.our-menu-button {
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 20px 40px;
+}
+
+.our-menu-button:hover {
+    transform-box: 20px;
+    color: #f2ac32;
+    background-color: black;
+}
+
+/*Our Menu ends */
+/*Carousel starts */
+#myCarousel {
+    background-color: #f2f2f2;
+}
+
+#myCarousel img {
+    height: 700px;
+    width: 70%;
+    image-resolution: 400px;
+    text-align: center;
+}
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+#mycarousel {
+    width: 100%;
+    display: flex;
+    margin-top: 0px;
+}
+
+.container-fluid {
+    margin-bottom: 100px;
+
+}
+
+.container-fluid h2 {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    font-style: bold;
+    color: rgb(12, 12, 12);
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+/*Carousel ends */
+
+/*booking table start*/
+
+.bookingitable-h1 {
+    font-family: 'Rochester', cursive;
+    font-size: 40px;
+    font-style: italic;
+    color: #f2ac32;
+    margin-bottom: 15px;
+
+}
+
+.bookingitable-h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    font-style: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.bookingitable-section {
+    padding: 100px;
+    text-align: center;
+    color: #fff;
+}
+
+.booking-div {
+    color: black;
+    display: inline-block;
+    margin: 20px 20px;
+}
+
+.button-booking {
+    text-decoration: none;
+}
+
+.button-booking a {
+    color: black;
+}
+
+#button:hover {
+    transform: scale(4px);
+    background-color: blue;
+    color: white;
+}
+
+/*footer start*/
+#contact iframe {
+    width: 100%;
+}
+
+.contact_1 a {
+    color: black;
+    text-shadow: none;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.contact_1 h3 {
+    display: inline;
+    font-family: 'Anton', sans-serif;
+}
+
+form {
+    align-items: right;
+    margin-left: 400px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#btn {
+    margin-left: 120px;
+    padding: 10px 20px;
+}

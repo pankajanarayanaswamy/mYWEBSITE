@@ -1,0 +1,29 @@
+#result{
+    font-size: 80px;
+    background-color: aqua;
+    padding: 30px 30px;
+    position:relative;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+.header{
+    position:relative;
+    background-color: black;
+    color: red;
+    text-align: center;
+      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#firstbtn{
+    background:linear-gradient(red,black);
+    color: aliceblue;
+}
+body{
+    margin: 20px;
+}
+form{
+    text-align: center;
+}

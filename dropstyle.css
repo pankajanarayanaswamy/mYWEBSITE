@@ -1,0 +1,67 @@
+header {
+    background-image: url(/images/Abstract-Backgrounds-HD.jpg);
+    background-size: cover;
+    padding-bottom: 1000px;
+    background-position: center;
+    z-index: 9;
+    position: relative;
+}
+
+ul {
+    font-family: Arial, Verdana;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    display: block;
+    position:relative;
+    float: left;
+  }
+
+li ul {
+    display: none;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: red;
+    border-top: 1px solid #ffffff;
+    padding: 5px 15px 5px 15px;
+    background: black;
+    margin-left: 1px;
+    white-space: nowrap;
+}
+
+ul li a:hover {
+    background: black;
+    color: red;
+}
+
+li:hover ul {
+    display: block;
+    position: absolute;
+}
+
+.menu-stick {
+   position: fixed;
+    top: 0;
+    right: 0;
+}
+
+li:hover li {
+    float: none;
+    font-size: 11px;
+}
+
+li:hover a {
+    background:black;
+    transform: 0.3s scale(20px);
+}
+
+li:hover li a:hover {
+    background: #95A9B1;
+}

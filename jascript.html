@@ -1,0 +1,57 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" href="javascript.css">
+</head>
+
+<body onload="change()" id="body">
+    <div class="header">
+        <h1 class="name">Javascript</h1>
+        <p class="desc">with Pankaja</p>
+    </div>
+    <div id="result">
+       
+             <button id='secondbtn' onmouseout="changeback()" onmouseover="change()">Show date</button>
+             <h1 id="date"></h1>
+    </div>
+
+
+    <form method="post" action="something.php" name="myForm" onsubmit="return validateForm()">
+        <br>
+        <div>
+        <label for="firstname">First name</label>
+        <input type="text" name="firstname" id="firstname">
+    </div>
+    <br>
+    <div>
+        <label for="Secondname">Last name</label>
+        <input type="text" name="secondname" id="secondname">
+    </div>
+    <br>
+    <label for="background">Background</label>
+    <select name="background" id="background" onchange="changeBackground(this)">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="Green">Green</option>
+    </select>
+<br>
+<br>
+<br>
+<input type="button" value="submit">
+    </form>
+
+</body>
+</html>
