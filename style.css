@@ -149,7 +149,7 @@ nav {
 }
 
 .food1 {
-    background: url(/images/download.jfif);
+    background: url("/images/download.jfif");
     background-size: cover;
     margin-bottom: 100px;
     margin-top: -30px;
@@ -160,7 +160,7 @@ nav {
 }
 
 .food2 {
-    background: url(/images/123.jfif);
+    background: url("/images/123.jfif");
     background-size: cover;
     box-shadow: 11px 9px 7px 4px rgba(0, 0, 0, 0.45);
     -webkit-box-shadow: 11px 9px 7px 4px rgba(0, 0, 0, 0.45);
