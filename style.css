@@ -5,7 +5,7 @@
 }
 
 header {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("images/food-photography-111-1024x683.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("food-photography-111-1024x683.jpg");
     width: 100%;
     height: 600px;
     background-size: cover;
@@ -149,7 +149,7 @@ nav {
 }
 
 .food1 {
-    background: url("/images/download.jfif");
+    background: url("download.jfif");
     background-size: cover;
     margin-bottom: 100px;
     margin-top: -30px;
@@ -160,7 +160,7 @@ nav {
 }
 
 .food2 {
-    background: url("/images/123.jfif");
+    background: url("123.jfif");
     background-size: cover;
     box-shadow: 11px 9px 7px 4px rgba(0, 0, 0, 0.45);
     -webkit-box-shadow: 11px 9px 7px 4px rgba(0, 0, 0, 0.45);
@@ -216,7 +216,7 @@ nav {
 
 /*specialities section*/
 .specialities-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("images/food-photography-111-1024x683.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("food-photography-111-1024x683.jpg");
     background-size: cover;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -263,17 +263,17 @@ nav {
 }
 
 .specialities-image1 {
-    background: url("/images/couple1.jpg");
+    background: url("special1.jfif");
     background-size: cover;
 }
 
 .specialities-image2 {
-    background: url("/images/fashion.jpg");
+    background: url("special2.jfif");
     background-size: cover;
 }
 
 .specialities-image3 {
-    background: url("/images/food-photography-111-1024x683.jpg");
+    background: url("123.jfif");
     background-size: cover;
 }
 
@@ -459,12 +459,12 @@ nav {
 }
 
 .col-large2 {
-    background-image: url("/images/monikawalecka-1.jpg");
+    background-image: url("monikawalecka-1.jpg");
     background-size: cover;
 }
 
 .col-large4 {
-    background-image: url("/images/81U4cHXuJEL.jpg");
+    background-image: url("81U4cHXuJEL.jpg");
     background-size: cover;
 }
 
@@ -483,13 +483,13 @@ nav {
 
 .col-small2 {
     background-color: aliceblue;
-    background-image: url(/images/image.jpg);
+    background-image: url("image.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .col-small3 {
-    background-image: url(/images/123.jfif);
+    background-image: url("123.jfif");
     background-size: cover;
     background-position: center;
 }
@@ -526,7 +526,7 @@ nav {
 
 /* our menu css*/
 .our-menu-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("/images/menu.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("menu.jpg");
     background-size: cover;
     padding: 50px;
     text-align: center;
